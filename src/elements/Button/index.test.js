@@ -6,14 +6,15 @@ import Button from './index'
 /* do test if isDisabled is present */
 test("Should not allowed click button if isDisabled is present", () => {
   /* get container from func */ 
-  
+  /* representasikan penggunaannya */
   const {container} = render(<Button isDisabled></Button>)
   /* expentation, check container.
-     check component have tag span and classname disabled,
-     and make sure the tag exist in the document.
+  check component have tag span and classname disabled,
+  and make sure the tag exist in the document.
   */
-  // console.log(container)
-  // expect(container.querySelector('span.disabled')).toBeInTheDocument()
+ // console.log(container)
+ // expect(container.querySelector('span.disabled')).toBeInTheDocument()
+ /* mengekpresikan hasil yang diharapkan, jika sesuai maka test passed */
   expect(container.querySelector('span.disabled')).toBeInTheDocument()
 })
 /* do test if ... */
