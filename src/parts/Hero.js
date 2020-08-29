@@ -14,7 +14,7 @@ export default function Hero(props) {
     /* scroll */
     window.scrollTo({
       /* subtraction for better position */
-      to: props.refMostPicked.current.offsetTop - 30,
+      top: props.refMostPicked.current.offsetTop - 30,
       behavior: 'smooth'
     })
   }
