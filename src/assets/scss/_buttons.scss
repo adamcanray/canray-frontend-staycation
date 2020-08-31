@@ -6,6 +6,9 @@
 
 .btn {
   display: inline-block;
+  /* Customize */
+  // display: inline-flex;
+  // align-items: center;
   font-family: $btn-font-family;
   font-weight: $btn-font-weight;
   color: $body-color;
