@@ -4,6 +4,8 @@ import {
   // InputNumber,
 } from 'elements/Form'
 import Breadcrumb from 'elements/Breadcrumb'
+// import Stepper from 'elements/Stepper'
+
 export default class TestInput extends React.Component {
   state = {
     // value: '1'
@@ -41,6 +43,7 @@ export default class TestInput extends React.Component {
               name="value"
               value={this.state.value}
             />
+            {/* <Stepper>ok</Stepper> */}
           </div>
         </div>
       </div>
