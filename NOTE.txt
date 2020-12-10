@@ -1,0 +1,6 @@
+#axios.create
+*-membuat main config axios dengan instansi.
+
+#axios interceptor 
+*-bisa untuk handle catch semua Error.
+*-jadi tidak butuh catch() lagi setelah then(), biar saja yang handle adalah interceptor-nya seorang.
