@@ -53,7 +53,7 @@ class Checkout extends Component {
     payload.append('bookingEndDate', checkout.date.endDate)
     payload.append('accountHolder', data.bankHolder)
     payload.append('bankFrom', data.bankName)
-    payload.append('images', data.proofPayment[0])
+    payload.append('image', data.proofPayment[0])
     // payload.append('bankId', checkout.bankId)
 
     this.props.submitBooking(payload).then(()=>{
